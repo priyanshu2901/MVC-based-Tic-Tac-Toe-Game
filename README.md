@@ -7,10 +7,13 @@ In this everything is drawn on the canvas using Tkinter. It takes the attributes
 Responsibility of model_tictactoe:
 In this, we implement a class name Board with the necessary methods and variables.
 The method that is implemented in this is : 
-isWin(): check whether anyone wins or not
-isTie(): check whether the game is tied or not
-update(): update the player move
-reset(): It will reset the game
+1.isWin(): check whether anyone wins or not
+
+2.isTie(): check whether the game is tied or not
+
+3.update(): update the player move
+
+4.reset(): It will reset the game
 
 Responsibility of controller_tictactoe
 In this event, handling is done for all the button and it calls the CreateBoard function defined in the view_tictactoe.py file.
